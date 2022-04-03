@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+}
+
+.menu {
+    padding: 30px 18px;
+}
+
+header img {
+    width: 40px;
+    height: auto;
+}
+
+.container {
+    max-width: 1120px;
+    padding: 0px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.news-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #121212;
+    margin-bottom: 16px;
+    letter-spacing: 0px;
+}
+
+.news-image {
+    background: #f5f6f8;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.news-contents {
+    padding: 30px 20px 40px 0px;
+    text-align: left;
+}
+
+.news-date-time {
+    font-weight: normal;
+    line-height: 14px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 16px;
+}
+
+.news-content {
+    font-size: 15px;
+    line-height: 20px;
+    color: #323947;
+    font-weight: 200;
+}
+
+img {
+    width: 100%;
+}
+
+.cover {
+    object-fit: cover;
+    width: 350px;
+    height: 200px;
+}
+
+.credits {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.credits.icon {
+	font-size: 20px;
+}
+
+.credits .love .icon {
+	font-size: 12px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+div {
+    display: block;
+}
+
+.article {
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 0px 12px;
+    text-decoration: none;
+}
+
+.remove {
+    text-decoration: none;
+}
+
+.remove:hover {
+    text-decoration: none;
+}
